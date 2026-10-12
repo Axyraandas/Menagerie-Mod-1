@@ -7,9 +7,9 @@ local loc_table = {
                     'Each played and unscoring',
                     '{C:attention}Face{} card gives {X:mult,C:white}X#1#{} Mult'
                 }
-            }},
+            }
+        },
     },
 }
 
 return loc_table
-

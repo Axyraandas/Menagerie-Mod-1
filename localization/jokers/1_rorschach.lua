@@ -7,7 +7,8 @@ local loc_table = {
                     '{C:spades}Spade{} cards are',
                     'treated as {C:mngy_suits}Wild{}'
                 }
-            }},
+            }
+        },
     },
 }
 
