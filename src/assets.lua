@@ -10,3 +10,10 @@ SMODS.Gradient {
 }
 
 G.ARGS.LOC_COLOURS["mngy_suits"] = SMODS.Gradients['mngy_suits']
+
+SMODS.Atlas {
+	key = 'jokers',
+	path = 'jokers.png',
+	px = 71,
+	py = 95
+}
