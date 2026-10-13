@@ -31,4 +31,11 @@ for _,v in ipairs(NFS.getDirectoryItems(Menagerie.mod.path .. 'localization/joke
 end
 --#endregion
 
+--Load Joker Display Definitions if JokerDisplay exists
+if JokerDisplay then
+	for _,v in pairs(NFS.getDirectoryItems(Menagerie.mod.path .. "localization/joker_display_definitions/")) do
+		assert(SMODS.load_file("localization/joker_display_definitions/" .. v, Menagerie.mod.id))()
+	end
+end
+
 return loc_table
